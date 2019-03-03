@@ -1,0 +1,4 @@
+allprojects {
+    group = 'lidp'
+    version = '0.0.1-SNAPSHOT'
+}
