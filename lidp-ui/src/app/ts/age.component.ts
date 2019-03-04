@@ -3,7 +3,7 @@ import {MatDatepickerInputEvent} from '@angular/material';
 
 @Component({
   selector: 'app-age',
-  templateUrl: 'age.html'
+  templateUrl: '../html/age.html'
 })
 export class AgeComponent {
   public age: number;

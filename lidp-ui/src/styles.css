@@ -1,18 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
-h1 {
-  color: #b83b5e;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3rem;
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: #fff;
 }
 
-.example-form {
-  min-width: 150px;
-  max-width: 500px;
-  width: 50%;
+p {
+  margin-left: 1rem;
 }
 
-.example-full-width {
+.grid-tile {
+  margin: 5px;
+}
+
+.full-width {
   width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.ml-auto {
+  margin-left: auto
 }

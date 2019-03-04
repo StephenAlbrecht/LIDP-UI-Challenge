@@ -1,0 +1,10 @@
+<div class="row">
+  <form class="std-form" (keydown.enter)="$event.preventDefault()">
+    <mat-form-field class="full-width">
+      <input matInput type="text" placeholder="Name" #hello (keyup)="0">
+    </mat-form-field>
+  </form>
+  <p *ngIf="hello.value">
+    Hello, {{hello.value}}
+  </p>
+</div>

@@ -1,27 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
-
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {
-  MatFormFieldModule,
-  MatInputModule,
-  MatButtonModule,
-  MatSnackBarModule,
-  MatGridListModule,
-  MatCardModule,
-  MatDatepickerModule,
-  MatNativeDateModule
-} from '@angular/material';
-
+import { HttpClientModule } from '@angular/common/http';
 
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+// Angular Material
+import { MaterialComponents } from './material';
 
-import { HelloComponent } from './hello.component';
-import { OpenSnackComponent } from './open-snack.component';
-import { CardGridComponent} from './card-grid.component';
-import { AgeComponent } from './age.component';
+// UI Components
+import { HelloComponent } from './ts/hello.component';
+import { OpenSnackComponent } from './ts/open-snack.component';
+import { CardGridComponent} from './ts/card-grid.component';
+import { AgeComponent } from './ts/age.component';
+import { AppInfoComponent } from './ts/app-info.component';
 
 @NgModule({
   declarations: [
@@ -29,20 +22,15 @@ import { AgeComponent } from './age.component';
     HelloComponent,
     OpenSnackComponent,
     CardGridComponent,
-    AgeComponent
+    AgeComponent,
+    AppInfoComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatButtonModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatSnackBarModule,
-    MatGridListModule,
-    MatCardModule,
-    MatDatepickerModule,
-    MatNativeDateModule,
-    AppRoutingModule
+    HttpClientModule,
+    AppRoutingModule,
+    MaterialComponents
   ],
   providers: [],
   bootstrap: [AppComponent]

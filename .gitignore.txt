@@ -1,4 +1,0 @@
-# Jetbrain IDEs build and user settings
-/out
-/.idea
-/*.iml
