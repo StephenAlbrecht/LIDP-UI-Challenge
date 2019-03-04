@@ -1,6 +1,5 @@
-package lidpapi;
+package api;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.hateoas.ResourceSupport;
 
 import com.fasterxml.jackson.annotation.JsonCreator;

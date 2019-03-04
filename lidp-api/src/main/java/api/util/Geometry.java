@@ -1,4 +1,4 @@
-package lidpapi.util;
+package api.util;
 
 public class Geometry {
 

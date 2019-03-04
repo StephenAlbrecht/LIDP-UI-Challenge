@@ -12,7 +12,7 @@
 /lidp-ui/dist
 
 # IDEs and editors
-/.idea
+.idea
 .project
 .classpath
 .c9/
@@ -30,3 +30,4 @@
 
 # dependencies
 /lidp-ui/node_modules
+.gradle
