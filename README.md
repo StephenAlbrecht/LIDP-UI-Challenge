@@ -1,7 +1,7 @@
 # LIDP UI Challenge
 
 This project integrates Angular into Spring Boot using Gradle to serve a landing page demonstrating several Angular Material components.
-`lidp-ui` contains the Angular fronted and `lidp-api` contains the Spring Boot backend.
+`lidp-ui` contains the Angular frontend and `lidp-api` contains the Spring Boot backend.
 
 ## Required software
 
