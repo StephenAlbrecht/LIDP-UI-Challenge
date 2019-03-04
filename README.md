@@ -18,3 +18,16 @@ This will create `lidp-api-0.0.1.jar` in `/lidp-api/build/libs`
 Execute the server using `java -jar lidp-api-0.0.1.jar`
 
 Navigate to [http://localhost](http://localhost/) to see the landing page!
+
+## Requirements
+
+* Project built with Gradle
+* Spring boot implemented, running on port 80
+* Landing page created for the server using Angular and Angular Material
+#### Optional Requirements
+* Hello World - When a user inputs their name, Angular displays "Hello, {NAME}"
+* GET - The UI calls a RESTful web service to retrieve the application name and today's date, then displays it in a navbar at the top of the page.
+* Material
+  * A button pops up a snackbar
+  * A grid of 3+ cards displays some content
+  * A DatePicker allows the user to select their DOB and tells them their age
