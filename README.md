@@ -13,9 +13,9 @@ This project integrates Angular into Spring Boot using Gradle to serve a landing
 
 After navigating to the project directory, build the project using the gradle wrapper with `./gradlew build`
 
-This will create `lidp-api-0.0.1.jar` in `/lidp-api/build/libs`
+This will create `lidp-api-0.0.1-SNAPSHOT.jar` in `/lidp-api/build/libs`
 
-Execute the server using `java -jar lidp-api-0.0.1.jar`
+Execute the server using `java -jar lidp-api-0.0.1-SNAPSHOT.jar`
 
 Navigate to [http://localhost](http://localhost/) to see the landing page!
 
